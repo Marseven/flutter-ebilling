@@ -1,16 +1,10 @@
 
+import 'package:ebilling_flutter/src/payment.dart';
+
 class EbPaymentService {
 
   String _userName;
   String _sharedKey;
-
-  int ebAmount;
-  String ebShortDescription;
-  String ebReference;
-  String ebEmail;
-  String ebPhone;
-  String ebCallback;
-  String ebName;
 
   static String urlServer;
   static String urlPost;
@@ -18,28 +12,22 @@ class EbPaymentService {
   EbPaymentService(
       this._userName,
       this._sharedKey,
-      this.ebAmount,
-      this.ebShortDescription,
-      this.ebReference,
-      this.ebEmail,
-      this.ebPhone,
-      this.ebCallback,
-      this.ebName);
+      );
 
-  void initPay(String operator, double amount){
-      // Reupere le numero facture
+  void initPay(String operator, Payment payment){
+      // Envoie les éléments à E-Billing et reçoi le numero facture
   }
 
   void pay(){
-
+      // redirigige sur la plateforme E-Billing pour le paiement avec WebView
   }
 
   void checkPayment(){
-
+      // permet de vérifier le statut du paiement dans la base de données
   }
 
   void paymentResult(){
-
+      // Affiche la page de résultat de paiement sur l'application
   }
 
   String get sharedKey => _sharedKey;

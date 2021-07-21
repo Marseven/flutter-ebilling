@@ -4,7 +4,5 @@ class EbResponse {
 
   String billingId;
 
-  EbResponse ();
-
-
+  EbResponse({this.billingId});
 }

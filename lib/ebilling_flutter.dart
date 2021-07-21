@@ -1,9 +1,5 @@
 library ebilling_flutter;
 
-/// A Calculator.
-class Ebilling {
-
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-
-}
+export 'src/ebilling_payment_service.dart';
+export 'src/ebilling_response.dart';
+export 'src/payment.dart';

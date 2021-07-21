@@ -25,24 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85bae688-a3a0-4b93-ab55-3ca87131723f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/utils.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flutter-ebilling.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ebilling_flutter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ebilling_flutter.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/ebilling_payment_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/ebilling_payment_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/ebilling_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/ebilling_response.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ebilling_flutter_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/ebilling_flutter_test.dart" afterDir="false" />
-    </list>
+    <list default="true" id="85bae688-a3a0-4b93-ab55-3ca87131723f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,22 +120,22 @@
       <screen x="0" y="23" width="1280" height="745" />
     </state>
     <state x="377" y="192" key="#com.intellij.ide.util.TreeFileChooserDialog/0.23.1280.745@0.23.1280.745" timestamp="1626864526671" />
-    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1626867248994">
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1626867978860">
       <screen x="0" y="23" width="1280" height="745" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.23.1280.745@0.23.1280.745" timestamp="1626867248994" />
-    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1626867248993">
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.23.1280.745@0.23.1280.745" timestamp="1626867978860" />
+    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1626867978859">
       <screen x="0" y="23" width="1280" height="745" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.center/0.23.1280.745@0.23.1280.745" timestamp="1626867248993" />
-    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1626867248993">
+    <state width="1238" height="187" key="GridCell.Tab.0.center/0.23.1280.745@0.23.1280.745" timestamp="1626867978859" />
+    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1626867978859">
       <screen x="0" y="23" width="1280" height="745" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.left/0.23.1280.745@0.23.1280.745" timestamp="1626867248993" />
-    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1626867248994">
+    <state width="1238" height="187" key="GridCell.Tab.0.left/0.23.1280.745@0.23.1280.745" timestamp="1626867978859" />
+    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1626867978860">
       <screen x="0" y="23" width="1280" height="745" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.right/0.23.1280.745@0.23.1280.745" timestamp="1626867248993" />
+    <state width="1238" height="187" key="GridCell.Tab.0.right/0.23.1280.745@0.23.1280.745" timestamp="1626867978860" />
     <state x="141" y="34" key="SettingsEditor" timestamp="1626427776126">
       <screen x="0" y="23" width="1280" height="745" />
     </state>

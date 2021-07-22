@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:ebilling_flutter/src/ebilling_response.dart';
@@ -11,10 +12,10 @@ class EbPaymentService {
   String sharedKey;
   String env;
 
-  static const urlLabServer = "https://lab.billing-easy.net/api/v1/merchant/e_bills";
+  static const urlLabServer = "https://lab.billing-easy.net/api/v1/merchant/e_bills.json";
   static const urlLabPost = "https://labpayment.billing-easy.net";
 
-  static const urlProdServer = "https://www.billing-easy.com/api/v1/merchant/e_bills";
+  static const urlProdServer = "https://www.billing-easy.com/api/v1/merchant/e_bills.json";
   static const urlProdPost = "https://simu.billing-easy.net";
 
   static const PROD = "PROD";
@@ -47,23 +48,20 @@ class EbPaymentService {
        request.headers.add('Content-type', 'application/json');
        request.headers.add('Authorization', 'Basic ${base64.encode(utf8.encode('${this.userName}:${this.sharedKey}'))}');
 
-       print('${base64.encode(utf8.encode('${this.userName}:${this.sharedKey}'))}');
-
        return request.close();
-     }).then((HttpClientResponse response) {
+     }).then((HttpClientResponse response) async{
        //Faudra gerer toutes les exeptions  possibles
-       print('${response.reasonPhrase}');
-       print('${response.statusCode}');
 
-       if(response.statusCode!=200 && response.statusCode!=200) {
+       if(response.statusCode!=200 && response.statusCode!=201) {
          //throw ArgumentError("Erreur specifique");
+         print('${response.reasonPhrase}');
+         print('${response.statusCode}');
        }else{
-         if(response.reasonPhrase!=null){
-           var data = jsonDecode(response.reasonPhrase);
-           return EbResponse(billingId: data['e_bill']['e_bill']);
-         }
-         //throw ArgumentError("Erreur spe")
+         var body = await readResponse(response);
+         print('${body}');
 
+         var data = jsonDecode(body);
+         return EbResponse(billingId: data['e_bill']['bill_id']);
        }
      }).catchError((error){
        print('$error');
